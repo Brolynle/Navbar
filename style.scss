@@ -1,0 +1,23 @@
+$primary-bg-color: rgb(255, 177, 109);
+$primary-h1-color: rgb(15, 15, 15);
+$h1-font-size: 35px;
+$nav-bg-width: 100%;
+$nav-bg-height: 7vh;
+$h1-margin-left: 250px;
+
+@mixin posvalues {
+    display: flex;
+    text-align: center;
+}
+
+.navbar {
+    width: $nav-bg-width;
+    background-color: $primary-bg-color;
+    height: $nav-bg-height;
+    
+        .h1 {
+            margin-left: $h1-margin-left;
+            @include: posvalues;
+
+        }
+}

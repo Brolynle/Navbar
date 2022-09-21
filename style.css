@@ -1,0 +1,10 @@
+.navbar {
+  width: 100%;
+  background-color: #ffb16d;
+  height: 7vh;
+}
+
+.navbar .navitems .h1 {
+  margin-left: 250px;
+}
+/*# sourceMappingURL=style.css.map */
