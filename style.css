@@ -1,10 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .navbar {
   width: 100%;
   background-color: #ffb16d;
-  height: 7vh;
+  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 20px 0 0 0;
 }
 
-.navbar .navitems .h1 {
-  margin-left: 250px;
+.navbar .navbar-brand {
+  position: absolute;
+  left: 20px;
+}
+
+.navbar .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+}
+
+.navbar .items li {
+  margin-left: 50px;
+  list-style-type: none;
+}
+
+.modal {
+  background-color: #fc7373;
+  position: relative;
+  top: 50px;
+  width: 650px;
+  height: 50vh;
+  display: none;
+}
+
+.modal .modaltext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  top: 170px;
+  left: -150px;
+  margin-bottom: 20px;
+}
+
+.modalbutton {
+  background-color: salmon;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

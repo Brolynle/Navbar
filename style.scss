@@ -1,23 +1,72 @@
 $primary-bg-color: rgb(255, 177, 109);
 $primary-h1-color: rgb(15, 15, 15);
-$h1-font-size: 35px;
+$h1-font-size: 20px;
 $nav-bg-width: 100%;
-$nav-bg-height: 7vh;
+$nav-bg-height: 5vh;
 $h1-margin-left: 250px;
 
-@mixin posvalues {
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@mixin posvalues() {
     display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 .navbar {
     width: $nav-bg-width;
     background-color: $primary-bg-color;
     height: $nav-bg-height;
-    
-        .h1 {
-            margin-left: $h1-margin-left;
-            @include: posvalues;
+    @include posvalues();
+    flex-direction: row;
+    padding: 20px 0 0 0;
 
-        }
+    .navbar-brand {
+        position: absolute;
+        left: 20px;
+    }
+
+        .items {
+            @include posvalues();
+            flex-direction: row;
+            text-align: center;
+            li {
+                margin-left: 50px;
+                list-style-type: none;;
+            }   
+        }  
 }
+
+// MODAL STARTS HERE
+
+.modal {
+    background-color:rgb(252, 115, 115);
+    position: relative;
+    top: 50px;
+    width: 650px;
+    height: 50vh;
+    display: none;
+
+    .modaltext {
+        @include posvalues();
+        position: relative;
+        top: 170px;
+        left: -150px;
+        margin-bottom: 20px;
+    }
+}
+
+.modalbutton {
+    background-color: salmon;
+    cursor: pointer;
+
+}
+
+
+
+
+
+

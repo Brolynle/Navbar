@@ -13,16 +13,26 @@
     <body>
 
         <div class="navbar">
+            <a class="navbar-brand" href="">NavBar</a>
             <div class="navitems">
-                <h1>TITLE</h1>
-                <li class="item1">ITEM 1</li>
-                <li class="item2">ITEM 2</li>
-                <li class="item3">ITEM 3</li>
-                <li class="item4">ITEM 4</li>
+                <ul class="items">
+                    <li class="item2">ITEM 1</li>
+                    <li class="item3">ITEM 2</li>
+                    <li class="item4">ITEM 3</li>
+                    <li class="item5">ITEM 4</li>
+                    <button onclick="openModal()" id="modalbutton">LOGIN</button>
+                </ul>
             </div>  
 
 
 
+        </div>
+
+
+        <div class="modal" id="modalbox">
+            <h1 class="modaltext">Username:</h1>
+            <h1 class="modaltext">Password:</h1>
+        
         </div>
 
 
@@ -35,6 +45,14 @@
 
 
 
+<!-- 
+create a div and position it where you want it to. assign an id
+create a button and position it where you want it to.
+after this is done, use display none in CSS
+have an onclick on the button to call a function.
+in the function for modal on, call the document using its id, and then style.display = "block"
+to turn it off, create another button with an onclick. 
+when you click on this button, there will be another function. grab document by its id, and then style.display = "none" -->
 
 
 
@@ -58,11 +76,11 @@
 
 
 
+
+
+
+
+        <script src="modal.js"></script>
 
     </body>
-
-
-
-
-
 </html>
