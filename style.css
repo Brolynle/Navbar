@@ -5,7 +5,7 @@
 
 .navbar {
   width: 100%;
-  background-color: #ffb16d;
+  background-color: #ffd6b1;
   height: 5vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,14 +42,15 @@
 }
 
 .navbar .items li {
-  margin-left: 50px;
+  margin-left: 100px;
   list-style-type: none;
 }
 
 .modal {
-  background-color: #fc7373;
+  background-color: #ffd6b1;
   position: relative;
-  top: 50px;
+  top: 170px;
+  left: 650px;
   width: 650px;
   height: 50vh;
   display: none;
@@ -69,8 +70,23 @@
   margin-bottom: 20px;
 }
 
-.modalbutton {
-  background-color: salmon;
+#modalopen {
+  background-color: white;
+  position: relative;
+  left: 575px;
+  top: -.2vh;
+  width: 100px;
+  height: 3vh;
+  cursor: pointer;
+}
+
+#modalclose {
+  background-color: #ff9f9f;
+  position: relative;
+  left: 540px;
+  top: -12vh;
+  width: 100px;
+  height: 3vh;
   cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

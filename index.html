@@ -13,14 +13,14 @@
     <body>
 
         <div class="navbar">
-            <a class="navbar-brand" href="">NavBar</a>
+            <a class="navbar-brand" href="">HOME</a>
             <div class="navitems">
                 <ul class="items">
                     <li class="item2">ITEM 1</li>
                     <li class="item3">ITEM 2</li>
                     <li class="item4">ITEM 3</li>
                     <li class="item5">ITEM 4</li>
-                    <button onclick="openModal()" id="modalbutton">LOGIN</button>
+                    <button onclick="openModal()" id="modalopen">LOGIN</button>
                 </ul>
             </div>  
 
@@ -32,6 +32,7 @@
         <div class="modal" id="modalbox">
             <h1 class="modaltext">Username:</h1>
             <h1 class="modaltext">Password:</h1>
+            <button onclick="closeModal()" id="modalclose">CLOSE</button>
         
         </div>
 

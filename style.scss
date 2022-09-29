@@ -1,4 +1,4 @@
-$primary-bg-color: rgb(255, 177, 109);
+$primary-bg-color: rgb(255, 214, 177);
 $primary-h1-color: rgb(15, 15, 15);
 $h1-font-size: 20px;
 $nav-bg-width: 100%;
@@ -34,7 +34,7 @@ $h1-margin-left: 250px;
             flex-direction: row;
             text-align: center;
             li {
-                margin-left: 50px;
+                margin-left: 100px;
                 list-style-type: none;;
             }   
         }  
@@ -43,9 +43,10 @@ $h1-margin-left: 250px;
 // MODAL STARTS HERE
 
 .modal {
-    background-color:rgb(252, 115, 115);
+    background-color:rgb(255, 214, 177);
     position: relative;
-    top: 50px;
+    top: 170px;
+    left: 650px;
     width: 650px;
     height: 50vh;
     display: none;
@@ -59,10 +60,26 @@ $h1-margin-left: 250px;
     }
 }
 
-.modalbutton {
-    background-color: salmon;
+#modalopen {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 575px;
+    top: -.2vh;
+    width: 100px;
+    height: 3vh;
     cursor: pointer;
 
+
+}
+
+#modalclose {
+    background-color: rgb(255, 159, 159);
+    position: relative;
+    left: 540px;
+    top: -12vh;
+    width: 100px;
+    height: 3vh;
+    cursor: pointer;
 }
 
 
