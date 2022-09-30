@@ -1,11 +1,9 @@
 function openModal() {
-    document.getElementById("modalbox")
-    style.display = "block"
+    document.getElementById("modalbox").style.display = "block"
 
 }
 
 function closeModal() {
-    document.getElementById("modalbox")
-    style.display = "none"
+    document.getElementById("modalbox").style.display = "none"
 
 }
